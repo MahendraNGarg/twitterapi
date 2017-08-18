@@ -1,0 +1,10 @@
+
+
+{%if tweet_msgs%}
+	{%for i in tweet_msgs%}
+		{{i.create_date}}---{{i.tweet_msg}}
+	<br>
+	{%endfor%}
+{%else%}
+<h2>No todays tweets available</h2>
+{%endif%}

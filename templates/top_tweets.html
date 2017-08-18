@@ -1,0 +1,10 @@
+
+
+{%if all_msgs%}
+	{%for i, value in all_msgs.items%}
+		{{i}}---	{{value}}
+	<br>
+	{%endfor%}
+{%else%}
+<h2>No top_tweets available for user</h2>
+{%endif%}

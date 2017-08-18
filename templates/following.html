@@ -1,0 +1,8 @@
+
+{%if followings%}
+	{%for i in followings%}
+	{{i.following}}, {{i.following_id}}
+	{%endfor%}
+{%else%}
+<h2>No followings available for user</h2>
+{%endif%}
